@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoList from './Todolist'
 import 'antd/dist/antd.css';
+import TodoList from './TodoList'
 
 ReactDOM.render(
-  <TodoList />,
-  document.getElementById('root')
+    <TodoList / >,
+    document.getElementById('root')
 )
